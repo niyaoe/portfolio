@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2c866;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    /*display: inline;*/
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    
+    
+}
+
+.project {
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 10px 0px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#skills{
+    background-color: sandybrown;
+    margin: 0 auto;
+    
+}
+
+
+    
+
+.forhover ul li::after{
+    content: '';
+	width: 0%;
+	height: 7px;
+	background: #ff6a2b;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+
+}
+.forhover ul li:hover::after{
+	width: 100%;
+}
+
+
+.test{
+    display: flex;
+    justify-content: center;
+}
